@@ -1,0 +1,15 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- Author: Ngoc Do Minh -->
+ 
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="login" class="App.LoginAction" method="userLogin">
+            <result name="DEMOPAGE">
+                /demo.jsp
+            </result>
+        </action>
+    </package>
+</struts>
